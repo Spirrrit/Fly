@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08EB29A2B3EFEC100213D11 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08EB2992B3EFEC100213D11 /* LoginVC.swift */; };
+		B08EB29C2B3EFF1B00213D11 /* LoginConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08EB29B2B3EFF1B00213D11 /* LoginConfirmationVC.swift */; };
+		B08EB29E2B3EFFE700213D11 /* FirstNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08EB29D2B3EFFE700213D11 /* FirstNameVC.swift */; };
+		B08EB2A02B3EFFF600213D11 /* LastNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08EB29F2B3EFFF600213D11 /* LastNameVC.swift */; };
+		B0AB095E2B3DE7AC008395CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB095D2B3DE7AC008395CF /* AppDelegate.swift */; };
+		B0AB09602B3DE7AC008395CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB095F2B3DE7AC008395CF /* SceneDelegate.swift */; };
+		B0AB09622B3DE7AC008395CF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB09612B3DE7AC008395CF /* HomeVC.swift */; };
+		B0AB09682B3DE7AC008395CF /* Fly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0AB09662B3DE7AC008395CF /* Fly.xcdatamodeld */; };
+		B0AB096A2B3DE7AE008395CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AB09692B3DE7AE008395CF /* Assets.xcassets */; };
+		B0AB096D2B3DE7AE008395CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AB096B2B3DE7AE008395CF /* LaunchScreen.storyboard */; };
+		B0AB097B2B3DE90F008395CF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB097A2B3DE90F008395CF /* CustomButton.swift */; };
+		B0AB097E2B3DE946008395CF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB097D2B3DE946008395CF /* CustomTextField.swift */; };
+		B0AB09802B3DE98A008395CF /* LableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB097F2B3DE98A008395CF /* LableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B08EB2992B3EFEC100213D11 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B08EB29B2B3EFF1B00213D11 /* LoginConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfirmationVC.swift; sourceTree = "<group>"; };
+		B08EB29D2B3EFFE700213D11 /* FirstNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNameVC.swift; sourceTree = "<group>"; };
+		B08EB29F2B3EFFF600213D11 /* LastNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNameVC.swift; sourceTree = "<group>"; };
+		B0AB095A2B3DE7AC008395CF /* Fly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AB095D2B3DE7AC008395CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0AB095F2B3DE7AC008395CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0AB09612B3DE7AC008395CF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B0AB09672B3DE7AC008395CF /* Fly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fly.xcdatamodel; sourceTree = "<group>"; };
+		B0AB09692B3DE7AE008395CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0AB096C2B3DE7AE008395CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0AB096E2B3DE7AE008395CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AB097A2B3DE90F008395CF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B0AB097D2B3DE946008395CF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B0AB097F2B3DE98A008395CF /* LableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0AB09572B3DE7AC008395CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B08EB2982B3EFE7B00213D11 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B08EB29D2B3EFFE700213D11 /* FirstNameVC.swift */,
+				B08EB29F2B3EFFF600213D11 /* LastNameVC.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B08EB2A32B3F004700213D11 /* Logon */ = {
+			isa = PBXGroup;
+			children = (
+				B08EB2992B3EFEC100213D11 /* LoginVC.swift */,
+				B08EB29B2B3EFF1B00213D11 /* LoginConfirmationVC.swift */,
+				B08EB2982B3EFE7B00213D11 /* Registration */,
+			);
+			path = Logon;
+			sourceTree = "<group>";
+		};
+		B0AB09512B3DE7AC008395CF = {
+			isa = PBXGroup;
+			children = (
+				B0AB095C2B3DE7AC008395CF /* Fly */,
+				B0AB095B2B3DE7AC008395CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0AB095B2B3DE7AC008395CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB095A2B3DE7AC008395CF /* Fly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0AB095C2B3DE7AC008395CF /* Fly */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB09772B3DE817008395CF /* Model */,
+				B0AB09752B3DE7F2008395CF /* Views */,
+				B0AB09762B3DE809008395CF /* Controllers */,
+				B0AB09742B3DE7D9008395CF /* Supporting */,
+				B0AB096E2B3DE7AE008395CF /* Info.plist */,
+				B0AB09662B3DE7AC008395CF /* Fly.xcdatamodeld */,
+			);
+			path = Fly;
+			sourceTree = "<group>";
+		};
+		B0AB09742B3DE7D9008395CF /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB095D2B3DE7AC008395CF /* AppDelegate.swift */,
+				B0AB095F2B3DE7AC008395CF /* SceneDelegate.swift */,
+				B0AB09692B3DE7AE008395CF /* Assets.xcassets */,
+				B0AB096B2B3DE7AE008395CF /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B0AB09752B3DE7F2008395CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB097A2B3DE90F008395CF /* CustomButton.swift */,
+				B0AB097D2B3DE946008395CF /* CustomTextField.swift */,
+				B0AB097F2B3DE98A008395CF /* LableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0AB09762B3DE809008395CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B08EB2A32B3F004700213D11 /* Logon */,
+				B0AB09612B3DE7AC008395CF /* HomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0AB09772B3DE817008395CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0AB09592B3DE7AC008395CF /* Fly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AB09712B3DE7AE008395CF /* Build configuration list for PBXNativeTarget "Fly" */;
+			buildPhases = (
+				B0AB09562B3DE7AC008395CF /* Sources */,
+				B0AB09572B3DE7AC008395CF /* Frameworks */,
+				B0AB09582B3DE7AC008395CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fly;
+			productName = Fly;
+			productReference = B0AB095A2B3DE7AC008395CF /* Fly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0AB09522B3DE7AC008395CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B0AB09592B3DE7AC008395CF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B0AB09552B3DE7AC008395CF /* Build configuration list for PBXProject "Fly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0AB09512B3DE7AC008395CF;
+			productRefGroup = B0AB095B2B3DE7AC008395CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0AB09592B3DE7AC008395CF /* Fly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0AB09582B3DE7AC008395CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AB096D2B3DE7AE008395CF /* LaunchScreen.storyboard in Resources */,
+				B0AB096A2B3DE7AE008395CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0AB09562B3DE7AC008395CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AB097E2B3DE946008395CF /* CustomTextField.swift in Sources */,
+				B0AB09622B3DE7AC008395CF /* HomeVC.swift in Sources */,
+				B08EB2A02B3EFFF600213D11 /* LastNameVC.swift in Sources */,
+				B08EB29A2B3EFEC100213D11 /* LoginVC.swift in Sources */,
+				B0AB097B2B3DE90F008395CF /* CustomButton.swift in Sources */,
+				B0AB09802B3DE98A008395CF /* LableView.swift in Sources */,
+				B08EB29C2B3EFF1B00213D11 /* LoginConfirmationVC.swift in Sources */,
+				B08EB29E2B3EFFE700213D11 /* FirstNameVC.swift in Sources */,
+				B0AB095E2B3DE7AC008395CF /* AppDelegate.swift in Sources */,
+				B0AB09602B3DE7AC008395CF /* SceneDelegate.swift in Sources */,
+				B0AB09682B3DE7AC008395CF /* Fly.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0AB096B2B3DE7AE008395CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0AB096C2B3DE7AE008395CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0AB096F2B3DE7AE008395CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0AB09702B3DE7AE008395CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0AB09722B3DE7AE008395CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3F7UBX2W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirrit.Fly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0AB09732B3DE7AE008395CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3F7UBX2W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirrit.Fly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0AB09552B3DE7AC008395CF /* Build configuration list for PBXProject "Fly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AB096F2B3DE7AE008395CF /* Debug */,
+				B0AB09702B3DE7AE008395CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0AB09712B3DE7AE008395CF /* Build configuration list for PBXNativeTarget "Fly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AB09722B3DE7AE008395CF /* Debug */,
+				B0AB09732B3DE7AE008395CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0AB09662B3DE7AC008395CF /* Fly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0AB09672B3DE7AC008395CF /* Fly.xcdatamodel */,
+			);
+			currentVersion = B0AB09672B3DE7AC008395CF /* Fly.xcdatamodel */;
+			path = Fly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0AB09522B3DE7AC008395CF /* Project object */;
+}
